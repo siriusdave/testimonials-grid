@@ -18,11 +18,12 @@
     --ff:'barlow semi condensed';
     --fw-500:500;
     --fw-600:600;
+    --bs:10px 10px 30px var(--clr-Light-gray);
 
 }
 
 body{
-    background: var(--clr-Light-gray);
+    background: var(--clr-Light-grayish-blue);
     font: 1em var(--ff);
     height: 100vh;
 }
@@ -43,24 +44,29 @@ background-image: url(../images/bg-pattern-quotation.svg);
 background-position: right 2em top 0;
 background-repeat: no-repeat;
 border-radius: 0.6252em;
+box-shadow: var(--bs);
 }
 
    
 .testimonials-card-two{
 background: var(--clr-Very-dark-grayish-blue);
 border-radius: 0.6252em;
+box-shadow: var(--bs);
 }
 .testimonials-card-three{
 background: var(--clr-White);
 border-radius: 0.6252em;
+box-shadow: var(--bs);
 }
 .testimonials-card-four{
 background: var(--clr-Very-dark-blackish-blue);
 border-radius: 0.6252em;
+box-shadow: var(--bs);
 }
 .testimonials-card-five{ 
 background:var(--clr-White);
 border-radius: 0.6252em;
+box-shadow: var(--bs);
 }
 .user {
     display: flex;
