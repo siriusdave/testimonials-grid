@@ -35,7 +35,7 @@ body{
     grid-gap: 20px;
     justify-content: center;
     align-content: center;
-    margin: 2em 1em;
+    margin: 3em 2em;
 }
     
 .testimonials-card-one{
@@ -91,10 +91,10 @@ box-shadow: var(--bs);
     font-weight: var(--fw-500);
     color: var(--clr-Light-grayish-blue);
     font-size: 1em;
-    opacity: 50%;
+    opacity: 70%;
 }
 .user-name-dark p{
-    opacity: 50%;
+    opacity: 70%;
 }
 .header-text{
     margin: 1em 1.5em 0em 2em;
